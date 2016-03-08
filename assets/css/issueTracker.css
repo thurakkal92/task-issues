@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.question-container {
+	padding: 0 60px !important;
+}
+#chartdiv {
+    width       : 100%;
+    height      : 435px;
+    font-size   : 11px;
+}
+.amcharts-chart-div a {
+    display: none !important;
+}
+.page-header h1 {
+    padding-left: 10px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.logout {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+@font-face {
+    font-family: 'Brandon_light';
+    src: url('../fonts/Brandon_light.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'Brandon_bld';
+    src: url('../fonts/Brandon_bld.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'Brandon_med';
+    src: url('../fonts/Brandon_med.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+input[type=range] {
+    -webkit-appearance: none !important;
+    width: 130px !important;
+    margin: 0 auto !important;
+    margin-top: 11px !important;
+    border-radius: 8px;
+    height: 9px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+input {
+    width: 130px;
+    margin: 0px auto;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#form-container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+table tr th {
+    text-align: center;
+    font-family: monospace;
+}
+
+.page-header p {
+    padding-left: 10px;
+    font-family: monospace;
+    font-style: 4px;
+    color: #2F527C;
+}
+
+#table-container {}
+
+.form-group label {
+    font-family: monospace;
+}
+
+table tr td {
+    text-align: center;
+    font-family: monospace;
+}
+
+.my-modal {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    z-index: 9999;
+    width: 290px;
+    height: 180px;
+    background: #fff;
+    border: 1px solid grey;
+    transition: 0.5s;
+    border-radius: 10px;
+    opacity: 0;
+    margin-left: -145px;
+    margin-top: -90px;
+    background: white;
+    box-shadow: 0 0 13px grey;
+}
+
+.my-modal.open {
+    top: 17%;
+    opacity: 1;
+}
+
+.my-modal p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -35px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button#popup {
+    white-space: normal;
+    width: 83px;
+}
+
+.popup_button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 70px;
+    height: 30px;
+    margin-left: -35px;
+    border: 1px solid grey;
+    background: black;
+    color: white;
+}
+
+.form {
+    padding: 5px;
+    width: 359px;
+    border: 2px solid brown;
+    border-right: none;
+    border-left: none;
+    height: 51px;
+    color: grey;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 18px;
+    outline: none;
+}
+.center {
+    text-align: center;
+}
+
+.form:focus {
+    -webkit-animation: move .5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move {
+    0% {
+        border: 2px solid brown;
+        background-color: none;
+        border-right: none;
+        border-left: none;
+    }
+    100% {
+        border: 5px solid brown;
+        background-color: rgba(139, 128, 128, 0.25);
+        ] border-right: 2px solid;
+        border-left: 2px solid;
+        p1 {
+            color: grey;
+            font-family: monospace;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        /*.controller:focus{
+	-webkit-animation-name: move 1s;
+}*/

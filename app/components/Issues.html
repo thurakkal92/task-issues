@@ -1,0 +1,24 @@
+<div class="row">
+	<div class="col-md-6 col-sm-6" id="table-container">
+		<table class="table table-bordered table table-hover" id="tab">
+			<thead class="table-border">
+				<th>Que 1</th>
+				<th>Que 2</th>
+				<th>Que 3</th>
+				<th>Urgency</th>
+			</thead>
+			<tbody>
+				<tr  ng-repeat="x in names">
+					<td>{{x.que1}}</td>
+					<td>{{x.que2}}</td>
+					<td>{{x.que3}}</td>
+					<td>Urgent</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-6">
+		<div id="chartdiv"></div>
+	</div>
+</div>
+

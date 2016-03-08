@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/issueTracker.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/rating.css">
+    <!-- chatjs files-->
+    <link rel="stylesheet" href="ChatJs/css/jquery.chatjs.css" />
+</head>
+<title>
+    Issue TRacker
+</title>
+
+<body>
+    <div id="main-page" ng-controller="addTotable">
+        <div class="row">
+            <div class="col-md-12 page-header">
+                <h1>Issue Tracker (<span></span>)</h1>
+                <input type="button" class="logout" value="logout">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#/Newissue">User side</a></li>
+                            <li><a href="#/Issues">Admin side</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- <div user="first" dir class="center"></div>
+			<div user="second" dir class="center"></div> -->
+        <div ui-view></div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/rating.js"></script> 
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-ui-router.js"></script>
+    <script src="assets/js/ngStorage.min.js"></script>
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/services/app.services.js"></script>
+    <script src="app/app.route.js"></script>
+    <script src="app/app.controller.js"></script>
+    <script src="ChatJs/js/jquery.autosize.js"></script>
+	<script src="ChatJs/js/jquery.chatjs.utils.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.adapter.servertypes.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.adapter.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.adapter.demo.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.window.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.messageboard.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.userlist.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.pmwindow.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.friendswindow.js"></script>
+    <script src="ChatJs/js/jquery.chatjs.controller.js"></script>
+    <script src="app/script.js"></script>   
+    <!--<script src ="js/custom.js"></script>-->
+</body>
+
+</html>

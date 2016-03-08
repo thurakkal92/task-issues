@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/issueTracker.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+</head>
+<title>
+    Issue TRacker
+</title>
+
+<body>
+    <div class="login-wrapper">
+        <div class="header-small">
+            <h4>LOG IN</h4>
+        </div>
+        <form id="login-form" accept-charset="UTF-8" novalidate="novalidate">
+            <div class="username-wrapper">
+                <label class="body-text-small" for="username">Name :</label>
+                <input class="arrange" value="" type="email" name="email" id="username" maxlength="50" autofocus="" required>
+            </div>
+            <div class="password-wrapper">
+                <label class="body-text-small" for="password">Password: (1234, 12345, hello are the valid pins)</label>
+                <input class="arrange" value="" name="password" type="password" id="password" maxlength="50">
+            </div><span class="forgot-password body-text-small"><a href="forgot-password.html">Forgot your password?</a></span>
+            <div class="notify"></div>
+            <div class="login-button">
+                <input class="btn btn-large-primary medium-green" type="submit" id="login-button" value="LOGIN">
+            </div>
+        </form>
+        <div class="facebook-login"><span class="signup-message">DON'T HAVE AN ACCOUNT?</span> <span class="login-link"><a href="signup.html">SIGN UP</a></span></div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-ui-router.js"></script>
+    <script src="assets/js/ngStorage.min.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/services/app.services.js"></script>
+    <script src="app/app.route.js"></script>
+    <script src="app/app.controller.js"></script>
+    <script src="app/login.js"></script>
+    <!--<script src ="js/custom.js"></script>-->
+</body>
+
+</html>
